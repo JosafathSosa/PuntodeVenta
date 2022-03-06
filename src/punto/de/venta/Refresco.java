@@ -10,10 +10,11 @@ package punto.de.venta;
  */
 public class Refresco {
      
-    int precio;
+    int precio, vidrio;
     
     public Refresco(){
          precio = 14;
+         vidrio = 12;
     }
     
 }
