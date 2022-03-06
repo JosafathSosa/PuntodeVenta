@@ -10,6 +10,7 @@ package punto.de.venta;
  */
 public class Ventana_principal extends javax.swing.JFrame {
 
+    //Declarando instancia del objeto
     Tacos TacoPastor = new Tacos(); 
     Torta TortaPastor = new Torta();
     Gringa GringaPastor = new Gringa();
