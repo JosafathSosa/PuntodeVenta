@@ -67,6 +67,14 @@ public class Ventana_principal extends javax.swing.JFrame {
         LabelCambio.setText("$"+cambio);
         
     }
+    
+    public void CobrarCoca(){
+        int x = Integer.parseInt(CantidadProducto.getText());
+        
+        totalpagar = totalpagar + (x * Refresco.precio);
+        
+        TotPagar.setText("$"+totalpagar);
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -183,6 +191,11 @@ public class Ventana_principal extends javax.swing.JFrame {
         CocaVidrio.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 CocaVidrioMouseClicked(evt);
+            }
+        });
+        CocaVidrio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CocaVidrioActionPerformed(evt);
             }
         });
 
@@ -449,6 +462,10 @@ public class Ventana_principal extends javax.swing.JFrame {
     private void CocaVidrio1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CocaVidrio1ActionPerformed
         cobrarRefrescoVidrio();
     }//GEN-LAST:event_CocaVidrio1ActionPerformed
+
+    private void CocaVidrioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CocaVidrioActionPerformed
+        CobrarCoca();
+    }//GEN-LAST:event_CocaVidrioActionPerformed
 
     /**
      * @param args the command line arguments
