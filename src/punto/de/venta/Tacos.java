@@ -13,7 +13,7 @@ public class Tacos {
     int precio ;
     
     public Tacos(){
-        precio = 12;
+        precio = 20;
         
     }
     
