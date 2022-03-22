@@ -17,7 +17,8 @@ public class Ventana_principal extends javax.swing.JFrame {
     Refresco Refresco = new Refresco();
     
     int totalpagar = 0;
-    
+    //El Josa carnal
+    String holamundo;
     public Ventana_principal() {
         initComponents();
             //Poner el frame en el centro
