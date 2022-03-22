@@ -20,6 +20,7 @@ public class Ventana_principal extends javax.swing.JFrame {
     
     public Ventana_principal() {
         initComponents();
+            //Poner el frame en el centro
             setLocationRelativeTo(null);
 
     }
