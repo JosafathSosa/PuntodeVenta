@@ -19,6 +19,8 @@ public class Ventana_principal extends javax.swing.JFrame {
     int totalpagar = 0;
     //El Josa carnal
     String holamundo;
+    //Cammbio número 2 para probar el push en netBeans
+    String josafathGuapo;
     public Ventana_principal() {
         initComponents();
             //Poner el frame en el centro
